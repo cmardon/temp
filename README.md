@@ -22,6 +22,7 @@ spack load python@3.11
 ```bash
 cd ~
 mkdir tp
+cd tp
 python -m venv venv
 . venv/bin/activate
 
