@@ -13,4 +13,17 @@ cd ~/spack
 . share/spack/setup-env.sh
 
 spack install python@3.11
+
+spack load python@3.11
+```
+
+
+# Projet Hanoi setup
+```bash
+cd ~
+mkdir tp
+python -m venv venv
+. venv/bin/activate
+
+pip install pygame notebook
 ```
