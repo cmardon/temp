@@ -2,7 +2,7 @@
 ```bash
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-flatpak install flathub org.godotengine.Godot
+flatpak install flathub org.godotengine.Godot -y
 ```
 
 # Spack
